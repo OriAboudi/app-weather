@@ -1,0 +1,62 @@
+.app:before{
+    content: " ";
+    background: url(/public/images/bg2.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 950px;
+    left: 0;
+    z-index: -1;
+  
+  }
+  p{
+    font-size:  1.6rem;
+  }
+  h1{
+    font-size: 6rem;
+  }
+  .app .main{
+    max-width: 600px;
+    height: 700px;
+    margin: auto;
+    padding: 0 1rem;
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .app .description{
+    /* position: relative; */
+    /* right:-90% ; */
+    /* transform-origin: 0 0; */
+    /* transform: rotate(269deg); */
+  }
+
+  .app .button{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .bold{
+    font-weight: 700;
+  }
+  .img{
+    max-height: 40px;
+   
+  }
+  .bimg{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 0.3rem auto;
+    padding: 0.4rem;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
